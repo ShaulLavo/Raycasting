@@ -7,16 +7,15 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "tsc && vite build && gh-pages -d dist",
-
+    "deploy": "tsc && vite build && gh-pages -d dist"
   },
   "devDependencies": {
     "typescript": "~5.6.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "@types/stats.js": "^0.17.3",
+    "gh-pages": "^6.3.0"
   },
   "dependencies": {
-    "@types/stats.js": "^0.17.3",
-    "greenlet": "^1.1.0",
     "stats.js": "^0.17.0"
   }
 }
